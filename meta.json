@@ -16,5 +16,6 @@
             "title":"Array of artists"
         }
     ],
+    "icon": "spotify",
     "title": "Spotify Get Followed Artists" /* Required.A display name for the module */
 }
