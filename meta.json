@@ -12,10 +12,28 @@
     //Required. Outputs the module emits.
     "outputs": [
         {
-            "id": "artists",
-            "title":"Array of artists"
+            "id": "name",
+            "title":"Artist"
+        },
+        {
+            "id": "popularity",
+            "title":"Popularity"
+        },
+        {
+            "id": "external_urls",
+            "title":"URL"
+        },
+        {
+            "id": "uri",
+            "title":"URI"
         }
     ],
+    "providers": [{
+        "name": "spotify",
+        "scopes": [
+            "user-follow-read"
+        ]
+    }],
     "icon": "spotify",
     "title": "Spotify Get Followed Artists" /* Required.A display name for the module */
 }
